@@ -1,0 +1,47 @@
+body {
+ font-family: Arial, sans-serif;
+ background-color: #d3e4e9;
+}
+
+.navbar {
+ border-bottom: 1px solid #c5c0c0;
+}
+
+.hero {
+ height: 70vh;
+ background: linear-gradient(rgba(42, 48, 51, 0.096), rgb(156, 169, 192)),
+             url('https://i.pinimg.com/1200x/29/13/77/2913770d685fb2fb09cfc6d20cce26ff.jpg') center/cover no-repeat;
+}
+
+h1, h2 {
+ font-weight: bold;
+}
+
+.card {
+ transition: 0.3s;
+}
+.card:hover {
+ transform: scale(1.03);
+}
+
+.card img {
+ height: 200px;
+ object-fit: cover;
+}
+
+img {
+ border-radius: 8px;
+}
+
+form input,
+form textarea {
+ border-radius: 5px;
+}
+
+.btn {
+ border-radius: 20px;
+}
+
+.footer {
+ background-color: #222;
+}
